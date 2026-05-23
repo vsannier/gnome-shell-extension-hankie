@@ -131,6 +131,11 @@ export default class HankieExtension extends Extension {
       this._session = null;
     }
 
+    if (this._label) {
+      this._label.destroy();
+      this._label = null;
+    }
+
     if (this._indicator) {
       if (this._indicatorId) {
         this._indicator.disconnect(this._indicatorId);

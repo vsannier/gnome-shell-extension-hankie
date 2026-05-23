@@ -11,6 +11,7 @@ the [AnkiConnect](https://ankiweb.net/shared/info/2055492159) add-on.
 ```console
 # See https://gjs.guide/extensions/development/creating.html
 $ sh install.sh
+$ shexli hankie@vsannier.github.com.shell-extension.zip
 $ GTK_A11Y=none dbus-run-session gnome-shell --nested --wayland
 ```
 
