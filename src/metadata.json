@@ -1,0 +1,8 @@
+{
+  "name": "hankie",
+  "description": "Show the total number of Anki cards due today in the top bar",
+  "uuid": "hankie@vsannier.github.com",
+  "url": "https://github.com/vsannier/hankie",
+  "version": 1,
+  "shell-version": ["45", "46", "47", "48"]
+}
